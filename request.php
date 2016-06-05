@@ -1,5 +1,5 @@
 <?php
-$host = "http://www.fixguard.com/"; //Do not forget to end with a /
+$host = "http://localhost:455/examples/"; //Do not forget to end with a /
 
 function abort(){
     header("Location: index.php");
@@ -26,6 +26,7 @@ $bunkers = $data->bunkers->bunkers;
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="css/material.min.css" rel="stylesheet" type="text/css">
+    <script src="js/material.min.js"></script>
 </head>
 <body>
     <a class="mdl-navigation__link" href="dash.php"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Dashboard</a>
@@ -38,7 +39,16 @@ $bunkers = $data->bunkers->bunkers;
         <?= $data->background ?>
     </p>
 
-    <hr />
+    <div id="p1" class="mdl-progress mdl-js-progress" style="width: 100%; height: 12px;"></div>
+    <script>
+    document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+        this.MaterialProgress.setProgress(33);
+    });
+    </script>
+    <p class="mdl-typography--headline" align="right">
+        Ranking: 33%
+    </p>
+
     <p class="mdl-typography--headline">
         Bankers
     </p>
