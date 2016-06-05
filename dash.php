@@ -47,20 +47,9 @@
 	<script src="js/material.min.js"></script>
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="css/icon.css" rel="stylesheet" type="text/css">
 	<link href="css/material.min.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<style>
-		#view-source {
-			position: fixed;
-			display: block;
-			right: 0;
-			bottom: 0;
-			margin-right: 40px;
-			margin-bottom: 40px;
-			z-index: 900;
-		}
-	</style>
 </head>
 
 <body>
@@ -189,7 +178,7 @@
 			</div>
 		</main>
 	</div>
-	<a href="mailto:info@fixguard.com" target="_top" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">Contact Us</a>
+	<a href="mailto:info@fixguard.com" target="_top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white" style="position: fixed;display: block;right: 0;bottom: 0;margin-right: 40px;margin-bottom: 40px;z-index: 900;">Contact Us</a>
 </body>
 
 </html>

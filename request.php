@@ -143,5 +143,8 @@ $bunkers = $data->bunkers->bunkers;
             ?>
         </tbody>
     </table>
+    <button onClick="window.print()" target="_top" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white" style="position: fixed;display: block;right: 0;top: 0;margin-right: 40px;margin-top: 40px;z-index: 900;">
+        <i class="material-icons" role="presentation">print</i>Print
+    </a>
 </body>
 </html>

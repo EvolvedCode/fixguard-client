@@ -13,8 +13,6 @@ if (isset($_SESSION['login'])){
         moveOn();
     }
 }
-unset($_SESSION['logintoken']);
-unset($_SESSION['dispensefailed']);
 
 $msg = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
