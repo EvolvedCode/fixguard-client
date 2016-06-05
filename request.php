@@ -1,8 +1,8 @@
 <?php
-$host = "http://localhost:455/examples/"; //Do not forget to end with a /
+$host = "http://localhost/examples/"; //Do not forget to end with a /
 
 function abort(){
-    header("Location: index.php");
+    header("Location: login.php");
     exit;
 }
 if(empty($_POST) or $_POST['query']==''){

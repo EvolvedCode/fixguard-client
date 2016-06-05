@@ -18,9 +18,9 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 .demo-avatar {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
+    width: auto;
+    height: auto;
+    margin-top: 16px;
 }
 .demo-layout .demo-header .mdl-textfield {
   padding: 0px;
@@ -33,7 +33,7 @@ html, body {
   color: rgba(0, 0, 0, 0.54);
 }
 .mdl-layout__drawer .avatar {
-  margin-bottom: 16px;
+  margin: 16px;
 }
 .demo-drawer {
   border: none;
