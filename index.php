@@ -8,11 +8,11 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-if ($_SESSION['login'] == true){
-    moveOn();
+if (isset($_SESSION['login'])){
+    if ($_SESSION['login'] == true){
+        moveOn();
+    }
 }
-unset($_SESSION['logintoken']);
-unset($_SESSION['dispensefailed']);
 
 $msg = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

@@ -1,5 +1,6 @@
 {
    "success":true,
+   "ranking": 58,
    "name":"john",
    "background":"my_background",
    "bankers":[
@@ -23,6 +24,7 @@
          {
             "id":"03becba0-85f4-4ac8-be9d-0575a8076ccb",
             "whenDate":"2017-10-17",
+            "comments": "yeahadas",
             "broker":{
                "name":"b_navn",
                "personInCharge":"b_pik",
@@ -46,6 +48,7 @@
          {
             "id":"2324e639-2611-4217-bd35-fb722b18068d",
             "whenDate":"2017-04-25",
+            "comments": "WORST EVER",
             "broker":{
                "name":"b_name",
                "personInCharge":"b_pic",
